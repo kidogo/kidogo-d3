@@ -1,0 +1,23 @@
+This repository contains source code for team Kidogo submission at the D3 hackathon 8th Aug. 2011
+
+It was meant to allows publishing and finding used items on a map.
+
+Uses app engine channel api for real time update of maps
+
+Uses google accounts for authentication 
+
+
+Tools Used
+----------------
+Eclipse
+Google Plugin for Eclipse 2.3.3
+Google App Engine Java SDK 1.5.2
+Google Web Toolkit SDK 2.3.0
+CodePro Analytix 7.0
+
+Library Dependencies
+------------------
+geomodel-1.0
+apache-commons-fileupload-1.2
+gwt-maps2-0.2 (custom compilation for gwt 2.3.0)
+gwt-gae-channel-0.4
