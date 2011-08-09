@@ -1,0 +1,16 @@
+<!-- Indices written at Tue, 9 Aug 2011 17:05:31 UTC -->
+
+<datastore-indexes>
+
+    <!-- Used 4 times in query history -->
+    <datastore-index kind="Subscription" ancestor="true" source="auto">
+        <property name="subscriptions_INTEGER_IDX" direction="asc"/>
+    </datastore-index>
+
+    <!-- Used 3 times in query history -->
+    <datastore-index kind="UserInfo" ancestor="false" source="auto">
+        <property name="email" direction="asc"/>
+        <property name="created" direction="asc"/>
+    </datastore-index>
+
+</datastore-indexes>

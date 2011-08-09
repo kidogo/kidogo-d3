@@ -1,0 +1,2 @@
+serviceClass: kidogod3.core.items.client.ItemsService
+path: 1E21540D400073D6693F14E5C0B9E0C6.gwt.rpc

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="utils-backup"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/KidogoD3"/>
+	<classpathentry kind="con" path="com.google.appengine.eclipse.core.GAE_CONTAINER"/>
+	<classpathentry kind="con" path="com.google.gwt.eclipse.core.GWT_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/commons-fileupload-1.2"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/geomodel-1.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/guice-3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/easymock-3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/powermock"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/gae-test-1.5.2"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

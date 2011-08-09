@@ -1,0 +1,2 @@
+serviceClass: kidogod3.core.clientchannel.client.ClientChannelService
+path: F746A2E181742183E705E7079ABC0286.gwt.rpc

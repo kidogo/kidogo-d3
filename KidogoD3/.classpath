@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="utils"/>
+	<classpathentry kind="con" path="com.google.appengine.eclipse.core.GAE_CONTAINER"/>
+	<classpathentry kind="con" path="com.google.gwt.eclipse.core.GWT_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/guice-3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/geomodel-1.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/commons-fileupload-1.2"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/gwt-maps2-0.2"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/gwt-servlet-deps-2.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/gwt-gae-channel-0.4-alpha"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>

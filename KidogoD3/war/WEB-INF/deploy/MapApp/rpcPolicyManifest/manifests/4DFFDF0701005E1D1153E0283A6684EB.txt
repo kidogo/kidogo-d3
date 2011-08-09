@@ -1,0 +1,2 @@
+serviceClass: kidogod3.core.users.client.UserService
+path: D00E439528B34DCB319C516E092AA987.gwt.rpc
