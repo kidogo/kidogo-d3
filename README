@@ -2,10 +2,15 @@ This repository contains source code for team Kidogo submission at the D3 hackat
 
 It was meant to allows publishing and finding used items on a map.
 
-Uses app engine channel api for real time update of maps
+A number of google technologies are used in there: 
+- Googe App Engine for hosting 
+- Google App Egine Channel API for real time update of maps
+- Google Web Toolkit for the user interface 
+- Google Accounts for authentication 
+- Google Maps for map rendering 
+- Google Guice for dependency injection 
 
 Uses google accounts for authentication 
-
 
 Tools Used
 ----------------
