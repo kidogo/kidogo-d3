@@ -21,3 +21,4 @@ geomodel-1.0
 apache-commons-fileupload-1.2
 gwt-maps2-0.2 (custom compilation for gwt 2.3.0)
 gwt-gae-channel-0.4
+google guice v3.0
