@@ -30,8 +30,7 @@ public class GaeTestCaseBase {
         tqConfig.setDisableAutoTaskExecution(!autoTaskExecutionEnabled);
 
         //tqConfig.setQueueXmlPath("war/WEB-INF/queue.xml");
-        tqConfig.setQueueXmlPath("C:/code/eclipse/taxman/SafariYetu/war/WEB-INF/queue.xml");
-
+        tqConfig.setQueueXmlPath("C:/git/DarhackAthonD3/KidogoD3/war/WEB-INF/queue.xml");
         
         // memcache setup
         LocalMemcacheServiceTestConfig mcConfig = new LocalMemcacheServiceTestConfig();
