@@ -42,7 +42,12 @@ import com.google.gwt.user.client.ui.FlowPanel;
 import com.google.gwt.user.client.ui.HTML;
 import com.google.gwt.user.client.ui.RootPanel;
 
+/**
+*  GWT entry point for the application.
+*/
 public class MapApp implements EntryPoint, MapCanvas {
+
+	/** A record or an item with its Marker on the map */
 	public class ItemRecord{
 		IItem item;
 		Marker marker;
@@ -84,6 +89,7 @@ public class MapApp implements EntryPoint, MapCanvas {
 	private FlowPanel sidePanel;
 	private IUser currentUser;
 	private ItemsService.ItemFilter filter;
+	//We keep track of items that have been added already to avoid puting up multiple markers for the same item
 	private Map<Long, ItemRecord> displayedItems = new HashMap<Long, MapApp.ItemRecord>();
 	private boolean showOnlyMyItems;
 	
@@ -155,11 +161,8 @@ public class MapApp implements EntryPoint, MapCanvas {
 	@Override
 	public void onModuleLoad() {
 		final MapOptions options = new MapOptions();
-	    // Zoom level. Required
 	    options.setZoom(6);
-	    // Open a map centered on Cawker City, KS USA. Required
 	    options.setCenter(new LatLng(-6, 36));
-	    // Map type. Required.
 	    options.setMapTypeId(new MapTypeId().getRoadmap());
 	    
 	    // Enable maps drag feature. Disabled by default.
@@ -170,8 +173,6 @@ public class MapApp implements EntryPoint, MapCanvas {
 	    options.setMapTypeControl(true);
 	    options.setScrollwheel(true);
 
-//	    int height = Window.getClientHeight();
-//	    int width = Window.getClientWidth();
 	    int height = 5;
 	    int width = 5;
 	    
